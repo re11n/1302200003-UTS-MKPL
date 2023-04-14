@@ -13,13 +13,10 @@ public class Employee {
 	private int monthWorkingInYear;
 	
 	private boolean isForeigner;
-	private boolean gender; //true = Laki-laki, false = Perempuan
-	
 	private int monthlySalary;
 	private int otherMonthlyIncome;
 	private int annualDeductible;
 	
-	private String spouseName;
 	private String spouseIdNumber;
 
 	private List<String> childNames;
@@ -30,8 +27,6 @@ public class Employee {
 		this.yearJoined = yearJoined;
 		this.monthJoined = monthJoined;
 		this.isForeigner = isForeigner;
-		this.gender = gender;
-		
 		childNames = new LinkedList<String>();
 		childIdNumbers = new LinkedList<String>();
 	}
@@ -69,7 +64,6 @@ public class Employee {
 	}
 	
 	public void setSpouse(String spouseName, String spouseIdNumber) {
-		this.spouseName = spouseName;
 		this.spouseIdNumber = idNumber;
 	}
 	
