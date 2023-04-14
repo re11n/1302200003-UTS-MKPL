@@ -7,10 +7,9 @@ import java.util.List;
 public class Employee {
 
 	private String idNumber;
-	
+
 	private int yearJoined;
 	private int monthJoined;
-	private int dayJoined;
 	private int monthWorkingInYear;
 	
 	private boolean isForeigner;
@@ -30,7 +29,6 @@ public class Employee {
 		this.idNumber = idNumber;
 		this.yearJoined = yearJoined;
 		this.monthJoined = monthJoined;
-		this.dayJoined = dayJoined;
 		this.isForeigner = isForeigner;
 		this.gender = gender;
 		
